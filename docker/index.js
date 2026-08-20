@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
     message: "Welcome to Node.js",
     data: {
       id: 1,
-      name: "Shuaib",
+      name: "Shuaib Khan",
       profession: "Software Engineer"
     }
   });
@@ -18,5 +18,3 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
-
- 
