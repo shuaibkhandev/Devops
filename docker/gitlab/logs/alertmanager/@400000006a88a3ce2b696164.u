@@ -1,0 +1,8 @@
+2026-08-21_19:15:15.54629 time=2026-08-21T19:15:15.546Z level=INFO source=main.go:191 msg="Starting Alertmanager" version="(version=0.31.1, branch=master, revision=7a639ba087d6e877038cabfdaa645230f79001b8)"
+2026-08-21_19:15:15.54732 time=2026-08-21T19:15:15.546Z level=INFO source=main.go:194 msg="Build context" build_context="(go=go1.26.4, platform=linux/amd64, user=GitLab-Omnibus, date=, tags=unknown)"
+2026-08-21_19:15:15.54911 time=2026-08-21T19:15:15.548Z level=INFO source=cluster.go:192 msg="setting advertise address explicitly" component=cluster addr=172.18.0.2 port=9094
+2026-08-21_19:15:15.56467 time=2026-08-21T19:15:15.564Z level=INFO source=cluster.go:682 msg="Waiting for gossip to settle..." component=cluster interval=2s
+2026-08-21_19:15:15.63964 time=2026-08-21T19:15:15.639Z level=INFO source=coordinator.go:111 msg="Loading configuration file" component=configuration file=/var/opt/gitlab/alertmanager/alertmanager.yml
+2026-08-21_19:15:15.64121 time=2026-08-21T19:15:15.641Z level=INFO source=coordinator.go:124 msg="Completed loading of configuration file" component=configuration file=/var/opt/gitlab/alertmanager/alertmanager.yml
+2026-08-21_19:15:15.65018 time=2026-08-21T19:15:15.650Z level=INFO source=tls_config.go:354 msg="Listening on" address=127.0.0.1:9093
+2026-08-21_19:15:15.65038 time=2026-08-21T19:15:15.650Z level=INFO source=tls_config.go:357 msg="TLS is disabled." http2=false address=127.0.0.1:9093

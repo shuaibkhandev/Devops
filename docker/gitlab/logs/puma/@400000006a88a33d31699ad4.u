@@ -1,0 +1,18 @@
+2026-08-21_18:55:40.19236 Warning: The code in the `before_worker_boot` block will not execute in the current Puma configuration. The `before_worker_boot` block only executes in Puma's cluster mode. To fix this, either remove the `before_worker_boot` call or increase Puma's worker count above zero. 
+2026-08-21_18:55:40.19274 Warning: The code in the `before_worker_shutdown` block will not execute in the current Puma configuration. The `before_worker_shutdown` block only executes in Puma's cluster mode. To fix this, either remove the `before_worker_shutdown` call or increase Puma's worker count above zero. 
+2026-08-21_18:55:40.19303 Warning: The code in the `before_fork` block will not execute in the current Puma configuration. The `before_fork` block only executes in Puma's cluster mode. To fix this, either remove the `before_fork` call or increase Puma's worker count above zero. 
+2026-08-21_18:55:40.19394 Warning: The code in the `before_worker_boot` block will not execute in the current Puma configuration. The `before_worker_boot` block only executes in Puma's cluster mode. To fix this, either remove the `before_worker_boot` call or increase Puma's worker count above zero. 
+2026-08-21_18:55:40.19434 Warning: The code in the `before_worker_shutdown` block will not execute in the current Puma configuration. The `before_worker_shutdown` block only executes in Puma's cluster mode. To fix this, either remove the `before_worker_shutdown` call or increase Puma's worker count above zero. 
+2026-08-21_18:55:40.19451 Warning: The code in the `before_fork` block will not execute in the current Puma configuration. The `before_fork` block only executes in Puma's cluster mode. To fix this, either remove the `before_fork` call or increase Puma's worker count above zero. 
+2026-08-21_18:55:40.22101 {"timestamp":"2026-08-21T18:55:40.194Z","pid":641,"message":"Puma starting in single mode..."}
+2026-08-21_18:55:40.22142 {"timestamp":"2026-08-21T18:55:40.221Z","pid":641,"message":"* Puma version: 8.0.2 (\"Into the Arena\")"}
+2026-08-21_18:55:40.22171 {"timestamp":"2026-08-21T18:55:40.221Z","pid":641,"message":"* Ruby version: ruby 3.3.12 (2026-07-16 revision 0581089df9) [x86_64-linux]"}
+2026-08-21_18:55:40.22194 {"timestamp":"2026-08-21T18:55:40.221Z","pid":641,"message":"*  Min threads: 4"}
+2026-08-21_18:55:40.22240 {"timestamp":"2026-08-21T18:55:40.221Z","pid":641,"message":"*  Max threads: 4"}
+2026-08-21_18:55:40.22301 {"timestamp":"2026-08-21T18:55:40.221Z","pid":641,"message":"*  Environment: production"}
+2026-08-21_18:55:40.22342 {"timestamp":"2026-08-21T18:55:40.221Z","pid":641,"message":"*          PID: 641"}
+2026-08-21_18:56:25.58720 WARNING: Puma is running in Single mode (workers = 0). Some features may not work. Please refer to https://gitlab.com/groups/gitlab-org/-/epics/5303 for info.
+2026-08-21_18:56:54.30478 W, [2026-08-21T18:56:18.513635 #641]  WARN -- : Gitlab::Metrics::Samplers::PumaSampler: undefined method `-' for nil, stopping
+2026-08-21_18:57:50.61203 {"timestamp":"2026-08-21T18:57:50.611Z","pid":641,"message":"* Listening on unix:///var/opt/gitlab/gitlab-rails/sockets/gitlab.socket"}
+2026-08-21_18:57:50.61312 {"timestamp":"2026-08-21T18:57:50.612Z","pid":641,"message":"* Listening on http://127.0.0.1:8080"}
+2026-08-21_18:57:50.62011 {"timestamp":"2026-08-21T18:57:50.619Z","pid":641,"message":"Use Ctrl-C to stop"}

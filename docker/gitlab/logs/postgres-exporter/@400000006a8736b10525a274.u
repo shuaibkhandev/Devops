@@ -1,0 +1,2 @@
+2026-08-20_16:51:40.15879 time=2026-08-20T16:51:40.158Z level=INFO source=server.go:96 msg="Established new database connection" fingerprint=/var/opt/gitlab/postgresql:5432
+2026-08-20_16:51:40.16804 time=2026-08-20T16:51:40.167Z level=INFO source=postgres_exporter.go:644 msg="Semantic version changed" server=/var/opt/gitlab/postgresql:5432 from=0.0.0 to=17.10.0

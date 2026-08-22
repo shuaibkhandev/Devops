@@ -1,0 +1,18 @@
+2026-08-21_18:31:23.43251 {"time":"2026-08-21T18:31:22.485088166Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v19.3.0/v19.3.0"}
+2026-08-21_18:31:23.43325 {"time":"2026-08-21T18:31:22.491955587Z","level":"INFO","msg":"Using own private API multi URL","url":"grpc:/localhost/|8155"}
+2026-08-21_18:31:23.43376 {"time":"2026-08-21T18:31:22.494608496Z","level":"INFO","msg":"Events Platform module is not enabled in config","mod_name":"events_platform"}
+2026-08-21_18:31:23.43494 {"time":"2026-08-21T18:31:22.494733839Z","level":"INFO","msg":"AutoFlow module is not enabled in config","mod_name":"autoflow"}
+2026-08-21_18:31:23.43566 {"time":"2026-08-21T18:31:22.495356669Z","level":"INFO","msg":"Starting","mod_name":"event_tracker"}
+2026-08-21_18:31:23.43625 {"time":"2026-08-21T18:31:22.495372399Z","level":"INFO","msg":"Starting","mod_name":"observability"}
+2026-08-21_18:31:23.43736 {"time":"2026-08-21T18:31:22.495426831Z","level":"INFO","msg":"Starting","mod_name":"usage_metrics"}
+2026-08-21_18:31:23.43791 {"time":"2026-08-21T18:31:22.495464386Z","level":"INFO","msg":"Starting","mod_name":"notifications"}
+2026-08-21_18:31:23.43870 {"time":"2026-08-21T18:31:22.495597427Z","level":"INFO","msg":"Starting","mod_name":"kubernetes_api"}
+2026-08-21_18:31:23.43918 {"time":"2026-08-21T18:31:22.495665087Z","level":"INFO","msg":"Starting","mod_name":"kas2agentk_tunnel"}
+2026-08-21_18:31:23.44047 {"time":"2026-08-21T18:31:22.50087003Z","level":"INFO","msg":"Observability endpoint is up","mod_name":"observability","net_network":"tcp","net_address":"127.0.0.1:8151"}
+2026-08-21_18:31:23.44104 {"time":"2026-08-21T18:31:22.501496204Z","level":"INFO","msg":"Private API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8155"}
+2026-08-21_18:31:23.44178 {"time":"2026-08-21T18:31:22.501621637Z","level":"INFO","msg":"Kubernetes API endpoint is up","mod_name":"kubernetes_api","net_network":"tcp","net_address":"127.0.0.1:8154"}
+2026-08-21_18:31:23.44224 {"time":"2026-08-21T18:31:22.501733061Z","level":"INFO","msg":"Agent API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8150","is_websocket":true}
+2026-08-21_18:31:23.44253 {"time":"2026-08-21T18:31:22.501747188Z","level":"INFO","msg":"API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8153"}
+2026-08-21_18:31:24.00661 {"time":"2026-08-21T18:31:24.006113269Z","level":"ERROR","msg":"Failed to get receptive agents","mod_name":"kas2agentk_tunnel","error":"Get \"http://gitlab-server/api/v4/internal/kubernetes/receptive_agents\": dial tcp 172.18.0.2:80: connect: connection refused"}
+2026-08-21_18:31:37.52386 {"time":"2026-08-21T18:31:37.523770247Z","level":"ERROR","msg":"Failed to get receptive agents","mod_name":"kas2agentk_tunnel","error":"Get \"http://gitlab-server/api/v4/internal/kubernetes/receptive_agents\": dial tcp 172.18.0.2:80: connect: connection refused"}
+2026-08-21_18:32:07.56734 {"time":"2026-08-21T18:32:07.566710398Z","level":"ERROR","msg":"Failed to get receptive agents","mod_name":"kas2agentk_tunnel","error":"HTTP status code: 502 for path /api/v4/internal/kubernetes/receptive_agents"}

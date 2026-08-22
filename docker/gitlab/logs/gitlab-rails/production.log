@@ -1,0 +1,178 @@
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+  Rendered layout layouts/mailer.html.haml (Duration: 70.3ms | GC: 3.6ms)
+  Rendered layout layouts/mailer.text.erb (Duration: 11.1ms | GC: 0.0ms)
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 37.1ms | GC: 0.9ms)
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 65.7ms | GC: 1.1ms)
+  Rendered layout layouts/mailer.html.haml (Duration: 7.0ms | GC: 0.0ms)
+  Rendered layout layouts/mailer.text.erb (Duration: 9.0ms | GC: 0.7ms)
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 9.8ms | GC: 0.0ms)
+  Rendered layout layouts/mailer/devise.html.haml (Duration: 6.3ms | GC: 0.0ms)
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+GraphQL-Ruby encountered mismatched types in this query: `WorkItemID!` (at 8:11) vs. `ID!` (at 20:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `WorkItemID!` (at 8:11) vs. `ID!` (at 26:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `WorkItemID!` (at 8:11) vs. `WikiPageMetaID!` (at 32:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `ID!` (at 20:11) vs. `WikiPageMetaID!` (at 32:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `ID!` (at 26:11) vs. `WikiPageMetaID!` (at 32:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `String` (at 10:11) vs. `String!` (at 22:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `String!` (at 22:11) vs. `String` (at 28:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `String!` (at 22:11) vs. `String` (at 34:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+GraphQL-Ruby encountered mismatched types in this query: `WorkItemID!` (at 8:11) vs. `ID!` (at 20:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `WorkItemID!` (at 8:11) vs. `ID!` (at 26:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `WorkItemID!` (at 8:11) vs. `WikiPageMetaID!` (at 32:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `ID!` (at 20:11) vs. `WikiPageMetaID!` (at 32:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `ID!` (at 26:11) vs. `WikiPageMetaID!` (at 32:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `String` (at 10:11) vs. `String!` (at 22:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `String!` (at 22:11) vs. `String` (at 28:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `String!` (at 22:11) vs. `String` (at 34:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+GraphQL-Ruby encountered mismatched types in this query: `WorkItemID!` (at 8:11) vs. `ID!` (at 20:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `WorkItemID!` (at 8:11) vs. `ID!` (at 26:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `WorkItemID!` (at 8:11) vs. `WikiPageMetaID!` (at 32:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `ID!` (at 20:11) vs. `WikiPageMetaID!` (at 32:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `ID!` (at 26:11) vs. `WikiPageMetaID!` (at 32:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `String` (at 10:11) vs. `String!` (at 22:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `String!` (at 22:11) vs. `String` (at 28:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `String!` (at 22:11) vs. `String` (at 34:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+`enable_tracing` is now deprecated in favor of `traces_sample_rate = 1.0`.
+
+GraphQL-Ruby encountered mismatched types in this query: `WorkItemID!` (at 8:11) vs. `ID!` (at 20:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `WorkItemID!` (at 8:11) vs. `ID!` (at 26:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `WorkItemID!` (at 8:11) vs. `WikiPageMetaID!` (at 32:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `ID!` (at 20:11) vs. `WikiPageMetaID!` (at 32:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `ID!` (at 26:11) vs. `WikiPageMetaID!` (at 32:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `String` (at 10:11) vs. `String!` (at 22:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `String!` (at 22:11) vs. `String` (at 28:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+
+GraphQL-Ruby encountered mismatched types in this query: `String!` (at 22:11) vs. `String` (at 34:11).
+This will return an error in future GraphQL-Ruby versions, as per the GraphQL specification
+Learn about migrating here: https://graphql-ruby.org/api-doc/2.6.3/GraphQL/Schema.html#allow_legacy_invalid_return_type_conflicts-class_method
+

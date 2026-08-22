@@ -1,0 +1,125 @@
+2026-08-21_17:42:07.75774 LOG:  starting PostgreSQL 17.10 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-08-21_17:42:07.79626 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2026-08-21_17:42:08.10451 LOG:  database system was interrupted; last known up at 2026-08-20 18:04:45 GMT
+2026-08-21_17:42:08.79900 FATAL:  the database system is starting up
+2026-08-21_17:42:19.53021 FATAL:  the database system is starting up
+2026-08-21_17:42:19.53792 FATAL:  the database system is starting up
+2026-08-21_17:42:19.54352 FATAL:  the database system is starting up
+2026-08-21_17:42:25.44579 LOG:  syncing data directory (fsync), elapsed time: 10.00 s, current path: ./base/16386/53938
+2026-08-21_17:42:26.78459 FATAL:  the database system is starting up
+2026-08-21_17:42:26.79135 FATAL:  the database system is starting up
+2026-08-21_17:42:34.36056 FATAL:  the database system is starting up
+2026-08-21_17:42:34.36382 FATAL:  the database system is starting up
+2026-08-21_17:42:34.36748 FATAL:  the database system is starting up
+2026-08-21_17:42:35.44710 LOG:  syncing data directory (fsync), elapsed time: 20.00 s, current path: ./global/2396_vm
+2026-08-21_17:42:35.60380 LOG:  database system was not properly shut down; automatic recovery in progress
+2026-08-21_17:42:35.64493 LOG:  redo starts at 0/B267140
+2026-08-21_17:42:35.65123 LOG:  invalid record length at 0/B2671D8: expected at least 24, got 0
+2026-08-21_17:42:35.65149 LOG:  redo done at 0/B267160 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-08-21_17:42:35.84581 LOG:  database system is ready to accept connections
+2026-08-21_17:42:45.48987 LOG:  duration: 3489.575 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:42:45.49228 	       relname as relname,
+2026-08-21_17:42:45.49250 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:42:45.49271 	  FROM pg_class
+2026-08-21_17:42:45.49313 	 WHERE relkind = 'r';
+2026-08-21_17:42:45.49323 	
+2026-08-21_17:42:59.36754 LOG:  duration: 2576.437 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:42:59.36890 	       relname as relname,
+2026-08-21_17:42:59.36930 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:42:59.36948 	  FROM pg_class
+2026-08-21_17:42:59.36989 	 WHERE relkind = 'r';
+2026-08-21_17:42:59.37292 	
+2026-08-21_17:43:14.64214 LOG:  duration: 2853.756 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:43:14.64498 	       relname as relname,
+2026-08-21_17:43:14.64511 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:43:14.64550 	  FROM pg_class
+2026-08-21_17:43:14.64583 	 WHERE relkind = 'r';
+2026-08-21_17:43:14.64594 	
+2026-08-21_17:43:40.32036 LOG:  duration: 13513.041 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:43:40.32152 	       relname as relname,
+2026-08-21_17:43:40.32246 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:43:40.32353 	  FROM pg_class
+2026-08-21_17:43:40.32512 	 WHERE relkind = 'r';
+2026-08-21_17:43:40.32530 	
+2026-08-21_17:43:47.54323 LOG:  duration: 5754.822 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:43:47.54341 	       relname as relname,
+2026-08-21_17:43:47.54354 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:43:47.54366 	  FROM pg_class
+2026-08-21_17:43:47.54390 	 WHERE relkind = 'r';
+2026-08-21_17:43:47.54401 	
+2026-08-21_17:44:00.07878 LOG:  duration: 3294.136 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:44:00.08009 	       relname as relname,
+2026-08-21_17:44:00.08042 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:44:00.08061 	  FROM pg_class
+2026-08-21_17:44:00.08083 	 WHERE relkind = 'r';
+2026-08-21_17:44:00.08097 	
+2026-08-21_17:44:04.54245 ERROR:  relation "table_without_models" does not exist
+2026-08-21_17:44:04.54276 STATEMENT:  SELECT pg_get_serial_sequence('table_without_models', 'id')
+2026-08-21_17:44:10.49159 ERROR:  relation "table_without_models" does not exist
+2026-08-21_17:44:10.49201 STATEMENT:  SELECT pg_get_serial_sequence('table_without_models', 'id')
+2026-08-21_17:44:15.80922 LOG:  duration: 3984.381 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:44:15.81178 	       relname as relname,
+2026-08-21_17:44:15.81218 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:44:15.81233 	  FROM pg_class
+2026-08-21_17:44:15.81246 	 WHERE relkind = 'r';
+2026-08-21_17:44:15.81260 	
+2026-08-21_17:44:32.58148 LOG:  duration: 5743.140 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:44:32.58189 	       relname as relname,
+2026-08-21_17:44:32.58218 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:44:32.58237 	  FROM pg_class
+2026-08-21_17:44:32.58256 	 WHERE relkind = 'r';
+2026-08-21_17:44:32.58267 	
+2026-08-21_17:44:45.78415 LOG:  duration: 3940.728 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:44:45.78461 	       relname as relname,
+2026-08-21_17:44:45.78482 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:44:45.78500 	  FROM pg_class
+2026-08-21_17:44:45.78523 	 WHERE relkind = 'r';
+2026-08-21_17:44:45.78542 	
+2026-08-21_17:45:03.04063 LOG:  duration: 6183.995 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:45:03.04144 	       relname as relname,
+2026-08-21_17:45:03.04173 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:45:03.04200 	  FROM pg_class
+2026-08-21_17:45:03.04226 	 WHERE relkind = 'r';
+2026-08-21_17:45:03.04248 	
+2026-08-21_17:45:14.43705 LOG:  duration: 2545.584 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:45:14.43721 	       relname as relname,
+2026-08-21_17:45:14.43734 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:45:14.43744 	  FROM pg_class
+2026-08-21_17:45:14.43757 	 WHERE relkind = 'r';
+2026-08-21_17:45:14.43768 	
+2026-08-21_17:45:29.28186 LOG:  duration: 2415.120 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:45:29.28207 	       relname as relname,
+2026-08-21_17:45:29.28244 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:45:29.28259 	  FROM pg_class
+2026-08-21_17:45:29.28277 	 WHERE relkind = 'r';
+2026-08-21_17:45:29.28288 	
+2026-08-21_17:45:43.27762 LOG:  duration: 1482.047 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:45:43.27877 	       relname as relname,
+2026-08-21_17:45:43.27909 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:45:43.27988 	  FROM pg_class
+2026-08-21_17:45:43.27998 	 WHERE relkind = 'r';
+2026-08-21_17:45:43.28008 	
+2026-08-21_17:45:58.33945 LOG:  duration: 1542.870 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:45:58.33959 	       relname as relname,
+2026-08-21_17:45:58.33964 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:45:58.33969 	  FROM pg_class
+2026-08-21_17:45:58.33974 	 WHERE relkind = 'r';
+2026-08-21_17:45:58.33978 	
+2026-08-21_17:46:13.33626 LOG:  duration: 1505.271 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:46:13.33678 	       relname as relname,
+2026-08-21_17:46:13.33705 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:46:13.33740 	  FROM pg_class
+2026-08-21_17:46:13.33760 	 WHERE relkind = 'r';
+2026-08-21_17:46:13.33779 	
+2026-08-21_17:46:28.30100 LOG:  duration: 1497.124 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:46:28.30144 	       relname as relname,
+2026-08-21_17:46:28.30153 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:46:28.30160 	  FROM pg_class
+2026-08-21_17:46:28.30169 	 WHERE relkind = 'r';
+2026-08-21_17:46:28.30179 	
+2026-08-21_17:46:43.55744 LOG:  duration: 1635.982 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_17:46:43.55758 	       relname as relname,
+2026-08-21_17:46:43.55766 	       pg_total_relation_size(oid) bytes
+2026-08-21_17:46:43.55772 	  FROM pg_class
+2026-08-21_17:46:43.55779 	 WHERE relkind = 'r';
+2026-08-21_17:46:43.55783 	

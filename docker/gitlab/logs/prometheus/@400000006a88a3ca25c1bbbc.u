@@ -1,0 +1,2 @@
+2026-08-21_19:15:11.02625 time=2026-08-21T19:15:10.021Z level=INFO source=head.go:784 msg="On-disk memory mappable chunks replay completed" component=tsdb duration=92.871272ms
+2026-08-21_19:15:11.02670 time=2026-08-21T19:15:10.021Z level=INFO source=head.go:792 msg="Replaying WAL, this may take a while" component=tsdb

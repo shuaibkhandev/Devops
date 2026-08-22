@@ -1,0 +1,5 @@
+{"level":"info","msg":"Wrapper started","pid":1053,"time":"2026-08-20T16:48:07.847Z","wrapper":1053}
+{"level":"info","msg":"finding process","pid":1053,"pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2026-08-20T16:48:07.847Z","wrapper":1053}
+{"error":"open /var/opt/gitlab/gitaly/gitaly.pid: no such file or directory","level":"error","msg":"find process","pid":1053,"time":"2026-08-20T16:48:07.847Z","wrapper":1053}
+{"level":"info","msg":"spawning a process","pid":1053,"time":"2026-08-20T16:48:07.847Z","wrapper":1053}
+{"level":"info","msg":"monitoring process","pid":1053,"process":1060,"time":"2026-08-20T16:48:07.848Z","wrapper":1053}

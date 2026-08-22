@@ -1,0 +1,23 @@
+2026-08-21_18:53:56.00880 LOG:  starting PostgreSQL 17.10 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, 64-bit
+2026-08-21_18:53:56.03646 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2026-08-21_18:53:56.25451 LOG:  database system was interrupted; last known up at 2026-08-21 18:31:15 GMT
+2026-08-21_18:54:08.25676 LOG:  database system was not properly shut down; automatic recovery in progress
+2026-08-21_18:54:08.31184 LOG:  invalid record length at 0/B32DC10: expected at least 24, got 0
+2026-08-21_18:54:08.31207 LOG:  redo is not required
+2026-08-21_18:54:08.43516 LOG:  database system is ready to accept connections
+2026-08-21_18:54:20.59416 LOG:  duration: 1373.046 ms  execute <unnamed>: SELECT pg_database_size($1)
+2026-08-21_18:54:20.59440 DETAIL:  Parameters: $1 = 'gitlabhq_production'
+2026-08-21_18:54:24.80074 LOG:  duration: 5629.086 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_18:54:24.80201 	       relname as relname,
+2026-08-21_18:54:24.80241 	       pg_total_relation_size(oid) bytes
+2026-08-21_18:54:24.80267 	  FROM pg_class
+2026-08-21_18:54:24.80316 	 WHERE relkind = 'r';
+2026-08-21_18:54:24.80355 	
+2026-08-21_18:54:35.66324 LOG:  duration: 1520.156 ms  execute <unnamed>: SELECT pg_database_size($1)
+2026-08-21_18:54:35.66339 DETAIL:  Parameters: $1 = 'gitlabhq_production'
+2026-08-21_18:54:38.56498 LOG:  duration: 4498.064 ms  statement: SELECT relnamespace::regnamespace as schemaname,
+2026-08-21_18:54:38.56720 	       relname as relname,
+2026-08-21_18:54:38.56878 	       pg_total_relation_size(oid) bytes
+2026-08-21_18:54:38.56894 	  FROM pg_class
+2026-08-21_18:54:38.56907 	 WHERE relkind = 'r';
+2026-08-21_18:54:38.56917 	

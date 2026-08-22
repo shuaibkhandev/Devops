@@ -1,0 +1,10 @@
+2026-08-21_17:42:09.48051 time=2026-08-21T17:42:09.479Z level=WARN source=main.go:76 msg="Error loading config" err="error opening config file \"postgres_exporter.yml\": open postgres_exporter.yml: no such file or directory"
+2026-08-21_17:42:09.48163 time=2026-08-21T17:42:09.480Z level=INFO source=main.go:86 msg="Excluded databases" databases=[]
+2026-08-21_17:42:09.48204 time=2026-08-21T17:42:09.480Z level=WARN source=main.go:89 msg="The extended queries.yaml config is DEPRECATED" file=/var/opt/gitlab/postgres-exporter/queries.yaml
+2026-08-21_17:42:09.50254 time=2026-08-21T17:42:09.501Z level=INFO source=tls_config.go:354 msg="Listening on" address=127.0.0.1:9187
+2026-08-21_17:42:09.50369 time=2026-08-21T17:42:09.501Z level=INFO source=tls_config.go:357 msg="TLS is disabled." http2=false address=127.0.0.1:9187
+2026-08-21_17:42:26.77993 time=2026-08-21T17:42:26.779Z level=INFO source=server.go:96 msg="Established new database connection" fingerprint=/var/opt/gitlab/postgresql:5432
+2026-08-21_17:42:26.78725 time=2026-08-21T17:42:26.787Z level=ERROR source=collector.go:191 msg="Error opening connection to database" err="error querying postgresql version: pq: the database system is starting up"
+2026-08-21_17:42:27.78754 time=2026-08-21T17:42:27.787Z level=ERROR source=postgres_exporter.go:713 msg="error scraping dsn" err="Error opening connection to database (host=/var/opt/gitlab/postgresql%20user=gitlab-psql%20database=gitlabhq_production): pq: the database system is starting up" dsn="host=/var/opt/gitlab/postgresql%20user=gitlab-psql%20database=gitlabhq_production"
+2026-08-21_17:42:41.77893 time=2026-08-21T17:42:41.778Z level=INFO source=server.go:96 msg="Established new database connection" fingerprint=/var/opt/gitlab/postgresql:5432
+2026-08-21_17:42:41.86439 time=2026-08-21T17:42:41.864Z level=INFO source=postgres_exporter.go:644 msg="Semantic version changed" server=/var/opt/gitlab/postgresql:5432 from=0.0.0 to=17.10.0

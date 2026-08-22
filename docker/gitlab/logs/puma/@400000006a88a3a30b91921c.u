@@ -1,0 +1,13 @@
+2026-08-21_19:13:01.61641 Warning: The code in the `before_worker_boot` block will not execute in the current Puma configuration. The `before_worker_boot` block only executes in Puma's cluster mode. To fix this, either remove the `before_worker_boot` call or increase Puma's worker count above zero. 
+2026-08-21_19:13:01.61684 Warning: The code in the `before_worker_shutdown` block will not execute in the current Puma configuration. The `before_worker_shutdown` block only executes in Puma's cluster mode. To fix this, either remove the `before_worker_shutdown` call or increase Puma's worker count above zero. 
+2026-08-21_19:13:01.61720 Warning: The code in the `before_fork` block will not execute in the current Puma configuration. The `before_fork` block only executes in Puma's cluster mode. To fix this, either remove the `before_fork` call or increase Puma's worker count above zero. 
+2026-08-21_19:13:01.61903 Warning: The code in the `before_worker_boot` block will not execute in the current Puma configuration. The `before_worker_boot` block only executes in Puma's cluster mode. To fix this, either remove the `before_worker_boot` call or increase Puma's worker count above zero. 
+2026-08-21_19:13:01.61982 Warning: The code in the `before_worker_shutdown` block will not execute in the current Puma configuration. The `before_worker_shutdown` block only executes in Puma's cluster mode. To fix this, either remove the `before_worker_shutdown` call or increase Puma's worker count above zero. 
+2026-08-21_19:13:01.62045 Warning: The code in the `before_fork` block will not execute in the current Puma configuration. The `before_fork` block only executes in Puma's cluster mode. To fix this, either remove the `before_fork` call or increase Puma's worker count above zero. 
+2026-08-21_19:13:01.65092 {"timestamp":"2026-08-21T19:13:01.618Z","pid":627,"message":"Puma starting in single mode..."}
+2026-08-21_19:13:01.65109 {"timestamp":"2026-08-21T19:13:01.650Z","pid":627,"message":"* Puma version: 8.0.2 (\"Into the Arena\")"}
+2026-08-21_19:13:01.65126 {"timestamp":"2026-08-21T19:13:01.651Z","pid":627,"message":"* Ruby version: ruby 3.3.12 (2026-07-16 revision 0581089df9) [x86_64-linux]"}
+2026-08-21_19:13:01.65146 {"timestamp":"2026-08-21T19:13:01.651Z","pid":627,"message":"*  Min threads: 4"}
+2026-08-21_19:13:01.65158 {"timestamp":"2026-08-21T19:13:01.651Z","pid":627,"message":"*  Max threads: 4"}
+2026-08-21_19:13:01.65214 {"timestamp":"2026-08-21T19:13:01.651Z","pid":627,"message":"*  Environment: production"}
+2026-08-21_19:13:01.65226 {"timestamp":"2026-08-21T19:13:01.651Z","pid":627,"message":"*          PID: 627"}

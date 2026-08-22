@@ -1,0 +1,8 @@
+{"time":"2026-08-21T19:14:45.365390651Z","level":"INFO","msg":"Starting","version":"v19.3.0-g2c30df782","build_time":"20260820.013419"}
+{"time":"2026-08-21T19:14:45.365570862Z","level":"INFO","msg":"Running server","name":"metrics","address":"localhost:9229","network":"tcp"}
+{"time":"2026-08-21T19:14:45.376075445Z","level":"INFO","msg":"Using redis/go-redis"}
+{"level":"info","msg":"keywatcher: starting process loop","time":"2026-08-21T19:14:45Z"}
+{"level":"info","msg":"keywatcher: listening for subscriptions","time":"2026-08-21T19:14:45Z"}
+{"time":"2026-08-21T19:14:45.376480005Z","level":"INFO","msg":"Running server","name":"upstream","address":"/var/opt/gitlab/gitlab-workhorse/sockets/socket","network":"unix"}
+{"time":"2026-08-21T19:14:45.37726961Z","level":"INFO","msg":"oauthproxy: IAMServiceURL not set; OAuth requests will be handled by Rails","iam_routing_enabled":false}
+{"correlation_id":"","duration_ms":0,"error":"badgateway: failed to receive response: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused","level":"error","method":"GET","msg":"","time":"2026-08-21T19:14:45Z","uri":""}

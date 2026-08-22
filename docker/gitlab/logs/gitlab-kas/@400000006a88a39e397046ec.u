@@ -1,0 +1,15 @@
+2026-08-21_19:14:27.51012 {"time":"2026-08-21T19:14:27.509781511Z","level":"INFO","msg":"Running KAS","kas":"gitlab-kas/v19.3.0/v19.3.0"}
+2026-08-21_19:14:27.51886 {"time":"2026-08-21T19:14:27.518638599Z","level":"INFO","msg":"Using own private API multi URL","url":"grpc:/localhost/|8155"}
+2026-08-21_19:14:27.52321 {"time":"2026-08-21T19:14:27.523015398Z","level":"INFO","msg":"Events Platform module is not enabled in config","mod_name":"events_platform"}
+2026-08-21_19:14:27.52383 {"time":"2026-08-21T19:14:27.523778242Z","level":"INFO","msg":"AutoFlow module is not enabled in config","mod_name":"autoflow"}
+2026-08-21_19:14:27.52749 {"time":"2026-08-21T19:14:27.5268129Z","level":"INFO","msg":"Starting","mod_name":"kubernetes_api"}
+2026-08-21_19:14:27.52820 {"time":"2026-08-21T19:14:27.526833221Z","level":"INFO","msg":"Starting","mod_name":"usage_metrics"}
+2026-08-21_19:14:27.52919 {"time":"2026-08-21T19:14:27.526955368Z","level":"INFO","msg":"Starting","mod_name":"event_tracker"}
+2026-08-21_19:14:27.53041 {"time":"2026-08-21T19:14:27.527003221Z","level":"INFO","msg":"Starting","mod_name":"notifications"}
+2026-08-21_19:14:27.53118 {"time":"2026-08-21T19:14:27.52733254Z","level":"INFO","msg":"Starting","mod_name":"observability"}
+2026-08-21_19:14:27.53213 {"time":"2026-08-21T19:14:27.527603282Z","level":"INFO","msg":"Starting","mod_name":"kas2agentk_tunnel"}
+2026-08-21_19:14:27.54640 {"time":"2026-08-21T19:14:27.54607729Z","level":"INFO","msg":"Observability endpoint is up","mod_name":"observability","net_network":"tcp","net_address":"127.0.0.1:8151"}
+2026-08-21_19:14:27.54710 {"time":"2026-08-21T19:14:27.546265105Z","level":"INFO","msg":"Agent API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8150","is_websocket":true}
+2026-08-21_19:14:27.54762 {"time":"2026-08-21T19:14:27.546519195Z","level":"INFO","msg":"Private API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8155"}
+2026-08-21_19:14:27.54849 {"time":"2026-08-21T19:14:27.546595513Z","level":"INFO","msg":"API endpoint is up","net_network":"tcp","net_address":"127.0.0.1:8153"}
+2026-08-21_19:14:27.54920 {"time":"2026-08-21T19:14:27.546757392Z","level":"INFO","msg":"Kubernetes API endpoint is up","mod_name":"kubernetes_api","net_network":"tcp","net_address":"127.0.0.1:8154"}

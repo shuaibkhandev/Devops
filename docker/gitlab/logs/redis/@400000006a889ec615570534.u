@@ -1,0 +1,5 @@
+2026-08-21_18:36:00.06641 488:M 21 Aug 2026 18:36:00.056 * 10 changes in 300 seconds. Saving...
+2026-08-21_18:36:00.06849 488:M 21 Aug 2026 18:36:00.065 * Background saving started by pid 1717
+2026-08-21_18:36:00.11582 1717:C 21 Aug 2026 18:36:00.115 * DB saved on disk
+2026-08-21_18:36:00.11675 1717:C 21 Aug 2026 18:36:00.116 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2026-08-21_18:36:00.16648 488:M 21 Aug 2026 18:36:00.166 * Background saving terminated with success

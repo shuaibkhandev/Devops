@@ -1,0 +1,5 @@
+2026-08-20_16:51:36.02646 time=2026-08-20T16:51:36.025Z level=WARN source=main.go:76 msg="Error loading config" err="error opening config file \"postgres_exporter.yml\": open postgres_exporter.yml: no such file or directory"
+2026-08-20_16:51:36.02680 time=2026-08-20T16:51:36.026Z level=INFO source=main.go:86 msg="Excluded databases" databases=[]
+2026-08-20_16:51:36.02696 time=2026-08-20T16:51:36.026Z level=WARN source=main.go:89 msg="The extended queries.yaml config is DEPRECATED" file=/var/opt/gitlab/postgres-exporter/queries.yaml
+2026-08-20_16:51:36.04149 time=2026-08-20T16:51:36.040Z level=INFO source=tls_config.go:354 msg="Listening on" address=127.0.0.1:9187
+2026-08-20_16:51:36.04344 time=2026-08-20T16:51:36.041Z level=INFO source=tls_config.go:357 msg="TLS is disabled." http2=false address=127.0.0.1:9187
